@@ -1,0 +1,15 @@
+# Ignore sass cache
+**.sass-cache
+
+# Ignore ST workspace
+*.sublime-project
+*.sublime-workspace
+
+# Ignore node modules
+node_modules/
+
+# Ignore bower components
+src/components/
+
+# Ignore win file system
+**Thumbs.db

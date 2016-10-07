@@ -1,0 +1,31 @@
+{
+  "name": "commonwebsitelibs",
+  "version": "1.0.0",
+  "authors": [
+    "Vernando05 <usedgrey05@gmail.com>"
+  ],
+  "description": "Libs for common website development",
+  "main": "index.html",
+  "keywords": [
+    "library"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "jquery-ui": "~1.11.4",
+    "respond": "~1.4.2",
+    "html5shiv": "~3.7.3",
+    "bootstrap-grid-columns-clearing": "https://github.com/sixfootsixdesigns/Bootstrap-3-Grid-Columns-Clearing.git",
+    "jquery-validation": "~1.14.0",
+    "placeholders": "~4.0.1"
+  }
+}

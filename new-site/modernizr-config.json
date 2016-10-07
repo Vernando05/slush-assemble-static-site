@@ -1,0 +1,10 @@
+{
+	"classPrefix": "",
+		"options": [
+		"addTest",
+		"testProp",
+		"setClasses"
+	],
+	"feature-detects": [
+	]
+}

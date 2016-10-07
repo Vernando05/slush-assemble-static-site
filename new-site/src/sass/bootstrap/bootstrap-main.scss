@@ -1,0 +1,10 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+$grid-gutter-width:         30px;
+$container-large-desktop:   (940px + $grid-gutter-width);
+// $grid-float-breakpoint:     990px;
+// Import Bootstrap for Sass
+@import "bootstrap";

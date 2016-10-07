@@ -1,0 +1,8 @@
+# Ignore node modules
+node_modules/
+
+# Ignore gulpfile
+gulpfile.js
+
+# Ignore win file system
+**Thumbs.db

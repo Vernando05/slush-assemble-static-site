@@ -1,0 +1,17 @@
+@import "compass/typography/links/link-colors";
+@import "compass/css3/images";
+$assets-spacing: 4px;
+$assets-layout: smart;
+$assets-sprite-dimensions: true;
+@import "compass/utilities/sprites";
+@import "assets/*.png";
+@include all-assets-sprites;
+$base-font-size: 14px;
+
+@mixin center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}

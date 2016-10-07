@@ -1,0 +1,29 @@
+{
+  "name": "slush-assemble-static-site",
+  "version": "1.0.3",
+  "description": "Generator for assemble powered site",
+  "main": "slushfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slushgenerator",
+    "assemble",
+    "bootstrap",
+    "compass",
+    "scss",
+    "static",
+    "site",
+    "gulp"
+  ],
+  "author": "Vernando Simbolon",
+  "license": "MIT",
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-conflict": "^0.4.0",
+    "gulp-install": "^0.6.0",
+    "gulp-template": "^4.0.0",
+    "inquirer": "^1.1.3"
+  }
+}
