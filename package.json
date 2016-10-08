@@ -16,6 +16,10 @@
     "site",
     "gulp"
   ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/npm/npm.git"
+  },
   "author": "Vernando Simbolon",
   "license": "MIT",
   "dependencies": {
