@@ -34,14 +34,11 @@ gulp.task('setup', function (cb) {
 		{type: 'confirm', name: 'moveon', message: 'Continue?'}
 	]).then( function (answers) {
 		if (!answers.moveon) {
-			cb();
+			return cb;
 		}
 		projectConfig.projectName = answers.name;
-		gulp.src('new-site/**', { dot: true })
-			.pipe(gulp.dest(answers.name))
-			.on('end', function () {
-				del('new-site');
-			});
+		gulp.src(__dirname + '/new-site/**', { dot: true })
+			.pipe(gulp.dest(answers.name));
 		cb();
 	});
 });
