@@ -2,7 +2,6 @@ var gulp = require('gulp'),
 	install = require('gulp-install'),
 	conflict = require('gulp-conflict'),
 	template = require('gulp-template'),
-    rename = require('gulp-rename'),
 	exec = require('child_process').exec,
 	del =  require('del'),
 	inquirer = require('inquirer');
