@@ -20,11 +20,7 @@ gulp.task('compass', ['setup'], function (cb) {
    exec('compass create ' + projectConfig.projectName + ' -r bootstrap-sass --using bootstrap', function (err, stdout, stderr) {
 		if (err) console.log(err);
 		console.log(stdout);
-		gulp.src('src/sass/_bootstrap-variables.scss', { cwd: projectConfig.projectName, dot: true })
-			.pipe(gulp.dest('src/sass/bootstrap'))
-			.on('end', function () {
-				del(['.sass-cache', 'src/config.rb', 'src/sass/styles.scss', 'src/sass/_bootstrap-variables.scss'], { force: true });
-			});	
+		del(['.sass-cache', './' + projectConfig.projectName + '/src/sass/bootstrap/styles.scss'], { force: true });
 		cb();	
 	});
 });

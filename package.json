@@ -1,6 +1,6 @@
 {
   "name": "slush-assemble-static-site",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Generator for assemble powered site",
   "main": "slushfile.js",
   "scripts": {
